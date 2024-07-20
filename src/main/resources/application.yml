@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: doctor-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/doctor_db
+    username: root
+    password: password
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+server:
+  port: 8081
